@@ -1,0 +1,1 @@
+The PowerShell script will uninstall the ZOOM application installed on the system.

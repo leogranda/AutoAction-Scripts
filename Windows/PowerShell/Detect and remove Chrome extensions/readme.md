@@ -1,0 +1,1 @@
+Use this script to detect and remove Chrome extensions installed on the Chrome browser. 

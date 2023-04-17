@@ -1,0 +1,1 @@
+Use this script to check for the kernel configuration present in the target computer.
