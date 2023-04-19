@@ -13,4 +13,4 @@ Scripts are divided based on platforms and by categories
 * Security
 * Software
 
-Also we have other category based on CVE remediation scritps
+Also we have other category based on CVE remediation scritps.
