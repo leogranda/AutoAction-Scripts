@@ -1,0 +1,1 @@
+This script gets Topia main logs

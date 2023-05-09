@@ -1,0 +1,31 @@
+@echo off
+::**This script is intended to be used after a browser application update**
+set browsers=chrome.exe firefox.exe msedge.exe brave.exe opera.exe
+
+(for %%b in (%browsers%) do ( 
+	call :checkIfBrowserRunning %%b
+	
+))
+
+:checkIfBrowserRunning
+tasklist | findstr %~1 > nul 2>&1
+if %errorlevel%==0 (call :popUpAndClose %~1) else (echo %~1 was not open or not found)
+timeout 2 > nul
+EXIT /B 0
+
+:popUpAndClose
+set timerInSeconds=60
+set CloseNoticeMessage=C:\"Program Files"\Vicarius\Topia\ExecuteAutoPopup.exe -m \"Your browser %~1 will be closed in %timerInSeconds% seconds due to an update by Topia. Please save your work.\"
+%CloseNoticeMessage%
+timeout %timerInSeconds% > nul
+taskkill /im %~1 /F > nul
+echo %~1 was closed.
+timeout 2 > nul
+call :afterClosing %~1
+EXIT /B 0
+
+:afterClosing
+set afterClosingMessage=C:\"Program Files"\Vicarius\Topia\ExecuteAutoPopup.exe -m \"%~1 Browser closed successfully. Please re-open it to complete the update.\"
+timeout 1 > nul
+%afterClosingMessage%
+EXIT /B 0

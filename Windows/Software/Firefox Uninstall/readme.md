@@ -1,0 +1,1 @@
+The PowerShell script will uninstall the Firefox application installed on the system.
