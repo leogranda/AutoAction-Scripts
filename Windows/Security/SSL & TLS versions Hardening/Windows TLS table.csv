@@ -1,0 +1,21 @@
+﻿Windows OS;TLS 1.0 Client;TLS 1.0 Server;TLS 1.1 Client;TLS 1.1 Server;TLS 1.2 Client;TLS 1.2 Server;TLS 1.3 Client;TLS 1.3 Server
+Windows Vista/Windows Server 2008;Enabled;Enabled;Not supported;Not supported;Not supported;Not supported;Not supported;Not supported
+Windows Server 2008 with Service Pack 2 (SP2);Enabled;Enabled;Disabled;Disabled;Disabled;Disabled;Not supported;Not supported
+Windows 7/Windows Server 2008 R2;Enabled;Enabled;Disabled;Disabled;Disabled;Disabled;Not supported;Not supported
+Windows 8/Windows Server 2012;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 8.1/Windows Server 2012 R2;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1507;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1511;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1607/Windows Server 2016 Standard;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1703;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1709;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1803;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1809//Windows Server 2019;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1903;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 1909;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 2004;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not supported;Not supported
+Windows 10, version 20H2;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not Supported;Not Supported
+Windows 10, version 21H1;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not Supported;Not Supported
+Windows 10, version 21H2;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Not Supported;Not Supported
+Windows Server 2022;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled
+Windows 11;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled;Enabled
